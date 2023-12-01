@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://server-sl-dbmysql001.mysql.database.azure.com:3306/Samplegalaxydb
+    username: karikalanp
+    password: Slpl@kpro1112000
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8083
